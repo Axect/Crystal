@@ -3,7 +3,7 @@ def add(x,y)
 end
 
 class Test
-    def test
+    def test()
         add(1,3)
         ::add(1,3)
     end
@@ -13,5 +13,5 @@ class Test
     end
 end
 
-t = Test
-t.test()
+t = Test.new
+puts t.test
